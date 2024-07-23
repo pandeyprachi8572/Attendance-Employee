@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+        margin-top: 40px; 
+        background-color: rgb(183, 183, 221);
+        box-shadow: 2px 3px 8px 8px;
+}
+.form-box input[type='submit']{
+    background:#1a9ae2;
+    cursor: pointer;
+    color: #fff;
+}
+.form-box .input-field.error input{
+    border-color: #f00;
+    border-width: 2px;
+}
+.form-box .input-field.error .fa{
+    color: #f00;
+}
+.form-box .input-field.success input{
+    border-color: #0b0;
+    border-width: 2px;
+}
+.form-box .input-field.success .fa{
+    color:#0b0;
+}
+.input-field span{
+    display: none;
+}
+.input-field.error span{
+color:#f00;
+display: block;
+}
+.input-field.success span{
+    color: #0b0;
+}
+.button{
+    padding-left: 20px;
+}
+h1{
+    text-align: center;
+font-weight: bold;
+
+}
+.required::after{
+    content: " *";
+    font-size: 25px;
+    color: red;
+}
+#box{
+    margin-top: 10px;
+}
+#btn{
+    padding-top: 10px;
+}
+input{
+    font-weight: bold;
+    font-size: 20px;
+}
+span{
+    color: red;
+}
+label,tr,td{
+    font-weight: bold;
+}
+#b,#submit{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: brown;
+    font-weight: bold;
+    
+}
